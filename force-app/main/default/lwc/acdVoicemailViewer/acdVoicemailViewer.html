@@ -24,7 +24,7 @@
                 <!-- Audio Player -->
                 <template if:true={audioUrl}>
                     <div class="slds-m-top_medium">
-                        <audio controls class="slds-size_full">
+                        <audio controls controlslist="nodownload" class="slds-size_full">
                             <source src={audioUrl} type="audio/wav">
                             Your browser does not support the audio element.
                         </audio>
